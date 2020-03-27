@@ -15,8 +15,7 @@ describe('auth-router.js', function() {
                 .expect(200)
                 .then(res => {
                     assert(res.body.username, 'seth')
-                })
-                
+                })  
         })
     })
 })
